@@ -1,0 +1,345 @@
+*{
+    margin: 0%;
+}
+.accueil-main{
+    text-align: center;
+    background-image: url("../img/fond.jpg");
+   height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ padding-top: 2%;
+}
+.pa{
+padding-top: 2%;
+color:#F6921E ;
+font-size: 30PX;
+
+}
+.rea{
+    color:#F6921E ;
+font-family: 'Sansita Swashed', cursive;padding-top: 3%;
+    
+}
+
+.Ac{
+    color: white;
+    font-size: 60px;
+    padding-top: 3%;
+}
+.icon-down-open{
+    display: block;
+    padding: 1%;
+    text-decoration: none;
+    border-radius:  50%;
+    background-color: orange;
+    width: 3%;
+    margin:5% auto;
+    height: 5vh;
+    line-height: 5vh;
+    border:solid transparent 7px; 
+   
+  
+
+
+
+    
+}
+.entr{
+    font-family:'Ubuntu', sans-serif;
+    width: 89%; 
+    margin: auto;
+    line-height: 2em;
+}
+html{
+
+scroll-behavior: smooth;
+}
+.titrea{
+    margin-bottom: 1%;
+    color: #F6921E;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 6vh;
+}
+
+
+.dive{
+    text-align: center;
+    
+   
+}.haut{
+    padding-bottom: 7%;
+ color:#87BD63 ;
+ font-size: 25px;
+}
+.bas{
+    padding-top: 7%;
+}
+.icon-down-open:hover{
+    background-color: white;
+  border: solid rgba(255, 0, 0, 0.37) 7px;
+  
+}
+.center{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+ }
+ .center div{
+     width: 20%;
+     margin: 1%;
+ }
+ .center div img {
+width: 100%;
+ }
+ .center p{
+    line-height: 1.5em;
+ }
+ .arbuste-div{
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .arbuste-img{
+     width: 70%;
+     
+ }
+ .arbuste-div div{
+     text-align: center;
+ }
+ .titre-arbuste{
+     text-align: center;
+    
+    
+     
+    
+ }
+ #arbuste1{
+     width: 80%;
+     margin:10% auto;
+     
+ }
+ .info-arbuste{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+ .entretien-arbuste1{
+     border: solid 1px black;
+     width: 30%;
+     
+ }
+ .titre-entretien{
+     background-color:#5F9EA0;
+     text-align: center;
+     
+ }
+ #arbuste1 p{
+     line-height: 1.5em;
+     
+ }
+ #arbuste2{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+#arbuste2 p{
+    line-height: 1.5em;
+    
+}
+.entretien-arbuste3{
+    display: flex;
+    justify-content: space-between;
+}
+.entretien-arbuste3 div{
+
+ border: solid 1px black;
+     width: 30%;
+}
+ #arbuste3 {
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+     }
+     .arbuste-div{
+         background-color: cadetblue;
+         padding: 2%;
+     }
+     
+     .presentation-arbuste:before, .presentation-arbuste:after { content:''; display:inline-block; vertical-align: middle; width: 30%; height: 1px; background: #000 }
+     .presentation-arbuste:before { margin-right: .3rem }
+     .presentation-arbuste:after { margin-left: .3rem }
+     .presentation-arbuste{
+         text-align: center;
+         margin-bottom: 1%;
+         font-family:'Sansita Swashed' ;
+     }
+     #arbuste3 p{
+         line-height: 1.5em;
+     }
+     p{
+         font-family: 'Sansita Swashed';
+     }
+     .titre-arbuste{
+         text-align: center;
+         margin-bottom: 2%;
+         
+     }
+     .cara-arbuste{
+         color: cadetblue;
+         margin: 1%;
+         
+     }
+     .titre-arbuste1{
+         font-family:'Sansita Swashed' ;
+         text-align: center;
+        
+     }
+     .arbuste-div{
+         margin-bottom: 3%;
+     }
+     .titre-arbuste1{
+         margin-bottom: 2%;
+     }
+     
+     .arbuste-div div:hover img {
+       
+        border-radius: 50%;  /* on arrondit l'image */
+        -webkit-transform: rotate(360deg); /* rotation de l'image */
+        transform: rotate(360deg);
+      }
+      .arbuste-div div img{
+        -webkit-filter: grayscale(0) blur(0px);
+        filter: grayscale(0) blur(0px);
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      .bouton-arbuste{
+          text-decoration: none;
+          color: white;
+        
+          border: solid 2px green;
+          border-radius: 50%;
+          padding: 3%;
+      }
+      .titre{
+          display: block;
+          margin-top: 4%;
+          width: 22%;
+          margin: auto;
+      }
+      .image-fleur{
+          text-align: center;
+          
+          background-image: url("../img/feuille.jpg");
+          justify-content: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+         
+          
+          
+      }
+      .titre-plante{
+          color: white;
+          padding: 7%;
+          
+          
+      }
+    }
+    .main-plante p{
+        color:#835858  ;
+    }
+      .para-plante{
+          background-color:white ;
+          width: 75%;
+          text-align: center;
+          margin: auto;
+          padding: 5%;
+          line-height: 2em;
+          color:#835858 ;
+      }
+      .plante{
+          display: flex;
+          justify-content: space-evenly;
+          text-align: center;
+          border: solid black 2Px;
+          width: 80%;
+          margin:  2% auto;
+          padding: 1%;
+          background-color: white;
+          
+      }
+      .image-pl{
+          width: 60%;
+
+      }
+      .main-plante{
+          background-color:#CECECE;
+          
+      }
+      .titre-plante{
+          text-align: center;
+          font-family: 'Sansita Swashed' ;
+          font-size: 60PX;
+          color:#F6921E ;
+        
+      }
+      .acceuil{
+        background-image: url(../img/garden-2040714_1920.jpg);
+        text-align: center;
+        padding: 20%;
+       
+        
+      }
+      .titre-haut{
+          background-color: rgba(0, 0, 0, 0.479);
+          padding: 7%;
+          color: white;
+          
+      }
+      .img-acceuil{
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin-top: 2%;
+          border: solid black 2px;
+          
+
+          }
+          .img-acceuil p{
+              padding-top: 4%;
+              line-height: 2em;
+              color:#835858 ;
+              
+              
+            
+          }
+          
+
+     
+
+      
+      
+      
+      
+        
+     
+     
+
+
+
+
+
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+
+ 
