@@ -1,0 +1,225 @@
+.engrais {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.engrais .piranha {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.engrais:hover .piranha {
+    display: inline;
+}
+header img{
+    width: 10vw;
+    padding-top: 25px;
+}
+.engrais:hover{
+    visibility: hidden;
+}
+.engrais:hover .piranha{
+    visibility: visible;
+ 
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 20vh;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #87BD63 ;
+    color: #835858;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    font-family: 'Rubik', sans-serif;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #835858;
+
+}
+
+footer img{
+    width: 10vw;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    background-color: #87BD63;
+    color: #835858;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color:#835858;
+}
+i{
+    color: #835858;;
+}
+
+.socialf{
+    font-size: xx-large;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.footer_cgu{
+    padding-left: 10px;
+}
+
+img{
+    width: 15vw;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    border:solid 7px #F6921E ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Sansita Swashed';
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+.box1 p{
+    text-align: center;
+}
+.tableau1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.box2{
+    display:flex;
+    align-items: center;
+    border: solid 7px #F6921E;
+    margin-top: 15px;
+    font-family: 'Sansita Swashed';
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.tableau2{
+    display: flex;
+flex-direction: row;
+padding-left: 75px;
+}
+
+#cactus_img{
+    width:7vw;
+}
+
+h2{
+display: flex;
+justify-content: space-around;
+font-family:'Sansita Swashed';
+color: #F6921E;
+}
+
+.image{
+    text-align: center;
+    width: 15%;
+}
+
+.potager1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.bloc1{ display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding:10px;
+width:80vw;
+}
+
+.potager2{
+    display: flex;
+    margin-bottom: 40px;
+    width: 70vw;
+    margin: 40px auto;
+}
+
+.image{
+    width:100%;
+}
+.tomate{
+    border: solid 7px #F6921E;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    align-items: center;
+    padding-top: 30px;
+}
+.courgette{
+    border:solid 7px #F6921E;
+    margin-left: 20px;
+    padding-left: 10px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.aubergine{
+    border:solid 7px #F6921E;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.poivron {
+    border: solid 7px #F6921E;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.concombre{
+    border:solid 7px #F6921E;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.mainlegume h1{
+    font-family:'Sansita Swashed';
+    text-align: center;
+    color:  #F6921E;
+    margin-top: 0%;
+    padding-top: 20px;
+}
+ .mainlegume{
+background-image: url("Images/background2.jpg");
+}
+
+.mainlegume p{
+    font-family:'Sansita Swashed'; 
+}
+/*color: #87BD63 : vert
+color: #F6921E : orange*/
