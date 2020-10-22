@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "fa",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -7,22 +7,10 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "47bd87a650e95b97f947d275ed968efe",
-      "css": "facebook-squared",
-      "code": 62222,
-      "src": "entypo"
-    },
-    {
-      "uid": "6275b63473065457219b9e12024f95f2",
-      "css": "instagram",
+      "uid": "616b755d0f4c7d2dc7a1dcc2e5427039",
+      "css": "down-open",
       "code": 59392,
-      "src": "zocial"
-    },
-    {
-      "uid": "0419da6446cb4f31093e2022793571ca",
-      "css": "twitter-circled",
-      "code": 62218,
-      "src": "entypo"
+      "src": "elusive"
     }
   ]
 }
